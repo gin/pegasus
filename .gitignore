@@ -17,6 +17,7 @@ lerna-debug.log*
 # Dependency directories
 node_modules/
 jspm_packages/
+ext-sentinel-py-sdk/
 
 # Optional npm cache directory
 .npm
@@ -38,3 +39,9 @@ docker-compose.override.yml
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Project specific files to ignore
+ext-sentinel-py-sdk/
+.venv/
+.envs.yaml
+.envs
