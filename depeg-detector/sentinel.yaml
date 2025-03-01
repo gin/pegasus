@@ -1,5 +1,7 @@
 project:
   name: DepegDetector
+  description: >
+    Detector for stablecoin depegging events. 
 
 envs:
   local: ../.envs.yaml
